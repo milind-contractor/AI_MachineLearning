@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/mcontrac/anaconda/bin/python"
+    "python.pythonPath": "/Users/mcontrac/anaconda/bin/python",
+    "git.autofetch": true
 }

@@ -37,7 +37,7 @@ def svm_sdg_plot(x,y):
 
     for epoch in range(1,epochs):
         error = 0
-        for i , xa in enumerate(x):
+        for i , x in enumerate(x):
             if (y[i]*np.dot(x[i],w)) < 1:
                 w = w + eta * ((x[i] * y[i]) + (-2 * (1/epoch)* w))
                 error = 1
